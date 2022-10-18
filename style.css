@@ -1,0 +1,49 @@
+h1 {
+  display: none;
+}
+@media screen and (min-width: 1201px) {
+  .Huge {
+    display: block;
+    text-align: center;
+  }
+  body {
+    background-color: mediumblue;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .Desktop {
+    display: block;
+    text-align: center;
+  }
+  body {
+    background-color: lightseagreen;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .Laptop {
+    display: block;
+    text-align: center;
+  }
+  body {
+    background-color: lightgreen;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Tablet {
+    display: block;
+    text-align: center;
+  }
+  body {
+    background-color: lightcoral;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Mobile {
+    display: block;
+    text-align: center;
+  }
+  body {
+    background-color: lightblue;
+  }
+}
