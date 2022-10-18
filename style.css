@@ -1,0 +1,45 @@
+h1 {
+  display: none;
+}
+@media screen and (max-width: 2000px) {
+  .Huge {
+    display: block;
+  }
+  body {
+    background-color: mediumblue;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Desktop {
+    display: block;
+  }
+  body {
+    background-color: lightseagreen;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Laptop {
+    display: block;
+  }
+  body {
+    background-color: lightgreen;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Tablet {
+    display: block;
+  }
+  body {
+    background-color: lightcoral;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Mobile {
+    display: block;
+  }
+  body {
+    background-color: lightblue;
+  }
+}
